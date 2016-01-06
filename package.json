@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nefit Easy™ Command Line Interface",
   "bin": {
     "easy": "./bin/easy"
