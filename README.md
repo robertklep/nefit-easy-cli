@@ -5,7 +5,7 @@ Command line interface for communications with Nefit/Bosch backend.
 ## Installation
 
 ```
-$ npm i robertklep/nefit-easy-cli -g
+$ npm i nefit-easy-cli -g
 ```
 
 This will install the `easy` client in a well-known "bin/" directory (`npm
