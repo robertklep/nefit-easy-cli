@@ -12,7 +12,6 @@ Usage:
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
   easy [options] set active-program <value>
-  easy [options] serve [--port=<port>] [--host=<host>]
   easy [options] decrypt [--type=<type>] <base64>
 
 Options:
@@ -24,8 +23,6 @@ Options:
   -a --access-key=ACCESS_KEY  Nefit Easy™ access key
   -p --password=PASSWORD      Nefit Easy™ password
   --type=<type>               Message type ('chat', 'alarm', 'email') [default: chat]
-  --port=<port>               Port number for HTTP server to listen on [default: 3000]
-  --host=<host>               Hostname for HTTP server to bind on [default: 127.0.0.1]
 
 Instead of specifying serial number, access key or password through
 options, you can also define them through environment variables:
