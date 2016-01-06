@@ -1,0 +1,26 @@
+{
+  "name": "nefit-easy-cli",
+  "version": "0.0.0",
+  "description": "Nefit Easy™ Command Line Interface",
+  "bin": {
+    "easy": "./bin/easy"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertklep/nefit-easy-cli.git"
+  },
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertklep/nefit-easy-cli/issues"
+  },
+  "homepage": "https://github.com/robertklep/nefit-easy-cli#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "docopt": "^0.6.2",
+    "nefit-easy-commands": "robertklep/nefit-easy-commands"
+  }
+}
