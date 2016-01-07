@@ -2,6 +2,12 @@
 
 Command line interface for communications with Nefit/Bosch backend.
 
+## Use in moderation!
+
+Each command that you execute using this tool will set up a new connection to the backend, which is relatively CPU-intensive (for both the client and the backend).
+
+If you want to run commands periodically (say, more than once every few minutes), you should consider running the [HTTP server](https://github.com/robertklep/nefit-easy-http-server), which opens a connection to the backend at startup and reuses it for all commands sent to it. The HTTP server will (eventually) support all the commands that the CLI tool supports.
+
 ## Installation
 
 ```
