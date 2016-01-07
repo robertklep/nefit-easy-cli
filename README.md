@@ -35,17 +35,18 @@ Usage:
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
   easy [options] set active-program <value>
-  easy [options] decrypt [--type=<type>] <base64>
+  easy [options] decrypt [--type=TYPE] <base64>
 
 Options:
-  -h --help                   Show this screen
-  -v --version                Show version
-  -V --verbose                Be more verbose
-  --pretty                    Pretty-print JSON output
-  -s --serial=SERIAL          Nefit Easy™ serial number
-  -a --access-key=ACCESS_KEY  Nefit Easy™ access key
-  -p --password=PASSWORD      Nefit Easy™ password
-  --type=<type>               Message type ('chat', 'alarm', 'email') [default: chat]
+  -h --help            Show this screen
+  -v --version         Show version
+  -V --verbose         Be more verbose
+  --serial=SERIAL      Nefit Easy™ serial number
+  --access-key=KEY     Nefit Easy™ access key
+  --password=PASSWORD  Nefit Easy™ password
+  --timeout=TIMEOUT    Request timeout in seconds [default: 30]
+  --type=TYPE          Message type ('chat', 'alarm', 'email') [default: chat]
+  --pretty             Pretty-print JSON output
 
 Instead of specifying serial number, access key or password through
 options, you can also define them through environment variables:
