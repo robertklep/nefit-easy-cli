@@ -8,6 +8,7 @@ Usage:
   easy [options] active-program
   easy [options] program-data
   easy [options] display-code
+  easy [options] supply-temperature
   easy [options] get <uri>
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
