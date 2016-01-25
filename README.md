@@ -31,6 +31,7 @@ Usage:
   easy [options] active-program
   easy [options] program-data
   easy [options] display-code
+  easy [options] supply-temperature
   easy [options] get <uri>
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
@@ -54,4 +55,12 @@ options, you can also define them through environment variables:
   NEFIT_SERIAL_NUMBER
   NEFIT_ACCESS_KEY
   NEFIT_PASSWORD
+
+The temperature value for "set temperature" can be prefixed with a specifier
+to conditionally set the temperature if the current temperature doesn't
+already meet the specification. For example, to set the temperature to 21°C,
+unless it's not already set higher:
+
+  $ easy set temperature '>21'
+
 ```
