@@ -20,7 +20,6 @@ config get prefix` will show you where)
 ## Options
 
 ```
-$ easy -h
 
 easy – Nefit Easy™ client
 
@@ -32,6 +31,7 @@ Usage:
   easy [options] program-data
   easy [options] display-code
   easy [options] supply-temperature
+  easy [options] gas-usage [<page> | "?"]
   easy [options] get <uri>
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
