@@ -9,6 +9,7 @@ Usage:
   easy [options] program-data
   easy [options] display-code
   easy [options] supply-temperature
+  easy [options] user-mode [ clock | manual ]
   easy [options] gas-usage [<page> | "?"]
   easy [options] get <uri>
   easy [options] put <uri> <data>
