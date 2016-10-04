@@ -11,6 +11,7 @@ Usage:
   easy [options] supply-temperature
   easy [options] user-mode [ clock | manual ]
   easy [options] gas-usage [<page> | "?"]
+  easy [options] hot-water-supply [ on | off ]
   easy [options] get <uri>
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
