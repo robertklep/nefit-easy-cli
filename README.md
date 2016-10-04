@@ -32,6 +32,7 @@ Usage:
   easy [options] display-code
   easy [options] supply-temperature
   easy [options] gas-usage [<page> | "?"]
+  easy [options] hot-water-supply [ on | off ]
   easy [options] get <uri>
   easy [options] put <uri> <data>
   easy [options] set temperature <value>
