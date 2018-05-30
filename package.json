@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-cli",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Nefit Easy™ Command Line Interface",
   "bin": {
     "easy": "./bin/easy"
@@ -16,6 +16,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/robertklep/nefit-easy-cli/issues"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "homepage": "https://github.com/robertklep/nefit-easy-cli#readme",
   "dependencies": {
