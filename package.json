@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-cli",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Nefit Easy™ Command Line Interface",
   "bin": {
     "easy": "./bin/easy"
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/robertklep/nefit-easy-cli#readme",
   "dependencies": {
     "docopt": "^0.6.2",
-    "nefit-easy-commands": "^2.0.0"
+    "nefit-easy-commands": "^2.1.0"
   }
 }
