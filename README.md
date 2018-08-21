@@ -10,7 +10,7 @@ If you want to run commands periodically (say, more than once every few minutes)
 
 ## Installation
 
-_This library requires Node.js 6.0.0 or later!_
+This library requires Node.js 4.0.0 or later.
 
 ```
 $ npm i nefit-easy-cli -g

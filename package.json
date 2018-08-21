@@ -23,6 +23,6 @@
   "homepage": "https://github.com/robertklep/nefit-easy-cli#readme",
   "dependencies": {
     "docopt": "^0.6.2",
-    "nefit-easy-commands": "^3.0.0"
+    "nefit-easy-commands": "^3.0.1"
   }
 }
